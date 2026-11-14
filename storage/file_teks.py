@@ -7,6 +7,8 @@
 import os
 
 class PenyimpananError(Exception):
+    pass
+
 class FileTeks:
     
     PEMISAH = "|"
