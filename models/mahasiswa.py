@@ -16,7 +16,6 @@ class Mahasiswa:
         self.no_hp = no_hp_valid(no_hp)
 
     def ubah(self, nama=None, no_hp=None):
-        """Nilai kosong berarti tetap. Semua dicek dulu sebelum ada yang diubah."""
         nama_baru = teks_wajib(nama, "Nama") if nama and nama.strip() else self.nama
         hp_baru = no_hp_valid(no_hp) if no_hp and no_hp.strip() else self.no_hp
         self.nama, self.no_hp = nama_baru, hp_baru
@@ -28,7 +27,6 @@ class Mahasiswa:
         )
 
     def status_aktif(self, transaksi_list):
-        """Status aktif peminjaman dihitung dari transaksi, tidak disimpan ganda."""
         return "aktif" if self.jumlah_transaksi_aktif(transaksi_list) > 0 else "tidak aktif"
 
     def boleh_pinjam(self, transaksi_list):
