@@ -1,0 +1,5 @@
+# NIM|nama|no_hp|status_aktif
+K3525005|Fajriyah Yulia Az Zahra|081234567890|aktif
+K3525013|Sulthan Hafizh Putra Agung|085612345678|tidak aktif
+K3525017|Zahra Faizza Kuncoroningrum|087811223344|aktif
+K3525036|Muzni Mubarok Salim|081355667788|tidak aktif
