@@ -6,7 +6,6 @@
 
 from managers.dasar import ManagerDasar
 
-
 class MahasiswaManager(ManagerDasar):
     def __init__(self):
         super().__init__()
@@ -37,11 +36,6 @@ class MahasiswaManager(ManagerDasar):
         return mhs
 
     def hapus(self, nim, transaksi_list, jaga_riwayat=True):
-        """Aturan 6: tidak boleh dihapus selama ada transaksi aktif.
-
-        Dengan jaga_riwayat=True, mahasiswa yang pernah bertransaksi juga tidak boleh
-        dihapus, supaya NIM di transaksi.txt selalu menunjuk data yang ada (Aturan 8).
-        """
         mhs = self.get(nim)
         if not mhs.boleh_dihapus(transaksi_list):
             raise ValueError("Mahasiswa masih memiliki transaksi aktif.")
