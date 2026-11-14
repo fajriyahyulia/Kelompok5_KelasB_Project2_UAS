@@ -8,7 +8,7 @@ from datetime import datetime
 
 from models.mahasiswa import Mahasiswa
 from models.alat import Alat
-from models.item_pinjam import ItemPinjam
+from models.item_pinjem import ItemPinjam
 from models.transaksi import Transaksi
 from models.enums import KondisiAlat, StatusTransaksi
 from models.validasi import kode_wajib
