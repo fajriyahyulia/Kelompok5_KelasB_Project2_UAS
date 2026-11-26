@@ -1,9 +1,3 @@
-#dikerjakan oleh
-#Nama : Zahra Faizza Kuncoroningrum
-#NIM : K3525017
-#Kelas : B / Semester 3
-#Angkatan : 2025
-
 # id|kode|status|kondisi|tgl_kembali
 T001|A001|dipinjam|-|-
 T001|A002|dikembalikan|baik|2026-11-10
