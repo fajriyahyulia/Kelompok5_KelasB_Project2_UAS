@@ -6,7 +6,7 @@
 
 from datetime import date, timedelta
 from models.enums import StatusTransaksi
-from models.item_pinjam import ItemPinjam
+from models.item_pinjem import ItemPinjam
 
 
 class Transaksi:

@@ -9,7 +9,7 @@ import os
 from core.sistem import Sistem
 from storage.file_teks import PenyimpananError
 from ui.Menu import Menu
-z
+
 FOLDER_PROYEK = os.path.dirname(os.path.abspath(__file__))
 
 if __name__ == "__main__":
