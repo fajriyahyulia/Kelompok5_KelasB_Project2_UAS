@@ -1,0 +1,12 @@
+# kode|nama|kategori|kondisi|status
+A001|Kamera Digital|perangkat multimedia|baik|tersedia
+A002|Tripod|perangkat multimedia|baik|tersedia
+A003|Kabel LAN|perangkat jaringan|rusak berat|tidak tersedia
+A004|Laptop Praktikum|perangkat komputasi|baik|tersedia
+A005|Router Wireless|perangkat jaringan|baik|tersedia
+A006|Switch 8 Port|perangkat jaringan|baik|tersedia
+A007|Proyektor|perangkat multimedia|baik|tersedia
+A008|Multimeter|perangkat elektronika|baik|tersedia
+A009|Osiloskop|perangkat elektronika|baik|tersedia
+A010|Raspberry Pi 4|perangkat komputasi|baik|tersedia
+
